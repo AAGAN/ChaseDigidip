@@ -66,16 +66,7 @@ extern "C" void __cxa_pure_virtual() {;}
 
 //
 //
-void clearDisplay();
-void error();
-void s7sSendStringSPI(String toSend);
-int bucketNumber();
-void saveSample();
-void displayDensity();
-int updateDensity();
-void newSampleSet();
-void eraseAll();
-void undoSample();
+void sendValue(int tempCycles);
 
-#include <DigiDip2.ino>
+#include <FourDigitSevSeg.ino>
 #endif
